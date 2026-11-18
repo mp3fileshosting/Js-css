@@ -297,9 +297,9 @@ const sounds = [
   },
   {
     id: 28,
-    title: 'Danger Warning',
-    category: 'ALERTS',
-    file: 'assets/audio/danger-warning.mp3',
+    title: 'Bizon Gun sound',
+    category: 'SMG GUNS',
+    file: 'Free_fire_Bizon_gun_sound_effect___Bizon_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-19',
     trending: true,
     downloads: 230
