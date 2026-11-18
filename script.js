@@ -38,7 +38,7 @@ const categories = [
   ['EMOTES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/EMOTE.png'],
   ['VIHECLES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/VIHECLES.png'],
   ['CHARACTERS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/10d8e7a6b205bf4345d5f0c292b8e85ad7fff4d2/CHARACTER.png'],
-  ['SKILLS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/10d8e7a6b205bf4345d5f0c292b8e85ad7fff4d2/SKILL.png'],
+  ['SKILLS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/57c3cf1f5c7e0a531a5cb21c6e9cc3dd442fc371/SKILLS.png'],
   ['LOBBY MUSIC', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/LOBBY%20MUSIC.png'],
   ['THEMES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/THEME.png'],
   ['QUICK MESSAGES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/10d8e7a6b205bf4345d5f0c292b8e85ad7fff4d2/MESSAGES.png'],
