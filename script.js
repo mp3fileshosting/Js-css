@@ -26,34 +26,24 @@ const CONFIG = {
 
 const categories = [
   ['AR GUNS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/AR%20GUNS.png'],
-  
   ['RIFLES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/RIFLES.png'],
-  
   ['MACHINE GUNS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/MACHINE%20GUNS.png'],
-  
   ['SMG GUNS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/SMG%20GUNS.png'],
-  
   ['SHORTGUNS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/SHORTGUNS.png'],
-  
   ['SNIPERS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/SNIPERS.png'],
-  
   ['PISTON', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/PISTONS.png'],
-  
   ['MELEE', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/MELEEPARA.png'],
-  
   ['GRENADE', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/GRENADS.png'],
-  
   ['EMOTES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/EMOTE.png'],
-  
   ['VIHECLES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/VIHECLES.png'],
-  ['SNIPER', 'https://placehold.co/80x80/171d32/31e7fa?text=SNP'],
-  ['CHARACTER', 'https://placehold.co/80x80/171d32/31e7fa?text=CHR'],
-  ['ALERTS', 'https://placehold.co/80x80/171d32/31e7fa?text=ALT'],
-  ['MEMES', 'https://placehold.co/80x80/171d32/31e7fa?text=MEM'],
-  ['MUSIC', 'https://placehold.co/80x80/171d32/31e7fa?text=MUS'],
-  ['GAME UI', 'https://placehold.co/80x80/171d32/31e7fa?text=UI'],
-  ['OTHERS', 'https://placehold.co/80x80/171d32/31e7fa?text=OTH'],
-  ['Nuvvu', 'https://placehold.co/80x80/171d32/31e7fa?text=NVU']
+  ['CHARACTERS', 'https://placehold.co/80x80/171d32/31e7fa?text=SNP'],
+  ['SKILLS', 'https://placehold.co/80x80/171d32/31e7fa?text=CHR'],
+  ['LOBBY MUSIC', 'https://placehold.co/80x80/171d32/31e7fa?text=ALT'],
+  ['THEMES', 'https://placehold.co/80x80/171d32/31e7fa?text=MEM'],
+  ['QUICK MESSAGES', 'https://placehold.co/80x80/171d32/31e7fa?text=MUS'],
+  ['PETS', 'https://placehold.co/80x80/171d32/31e7fa?text=UI'],
+  ['ANIMATIONS', 'https://placehold.co/80x80/171d32/31e7fa?text=OTH'],
+  ['UNKNOWN SOUNDS', 'https://placehold.co/80x80/171d32/31e7fa?text=NVU']
 ];
 
 /* ==========================================
