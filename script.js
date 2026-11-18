@@ -342,9 +342,9 @@ const sounds = [
   },
   {
     id: 33,
-    title: 'Game Start',
-    category: 'GAME UI',
-    file: 'assets/audio/game-start.mp3',
+    title: 'M1014 Gun sound',
+    category: 'SHORTGUNS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M1014_gun_sound_effect___M1014_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-14',
     trending: true,
     downloads: 900
