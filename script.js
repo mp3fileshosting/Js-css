@@ -37,7 +37,7 @@ const categories = [
   ['EMOTES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/EMOTE.png'],
   ['VIHECLES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/VIHECLES.png'],
   ['CHARACTERS', 'https://placehold.co/80x80/171d32/31e7fa?text=SNP'],
-  ['SKILLS', 'https://placehold.co/80x80/171d32/31e7fa?text=CHR'],
+  ['SKILLS', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/LOBBY%20MUSIC.png'],
   ['LOBBY MUSIC', 'https://placehold.co/80x80/171d32/31e7fa?text=ALT'],
   ['THEMES', 'https://placehold.co/80x80/171d32/31e7fa?text=MEM'],
   ['QUICK MESSAGES', 'https://placehold.co/80x80/171d32/31e7fa?text=MUS'],
