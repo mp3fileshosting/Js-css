@@ -421,42 +421,42 @@
 }
 
 /* BLUE */
-#ffse .ff-cat[data-category="COLLECTION"] {
+#ffse .ff-cat[data-category="CHARACTERS"] {
   --icon-glow-color:#528aff;
 }
 
 /* PURPLE */
-#ffse .ff-cat[data-category="CHARACTER"] {
+#ffse .ff-cat[data-category="SKILLS"] {
   --icon-glow-color:#bd65ff;
 }
 
 /* RED */
-#ffse .ff-cat[data-category="ALERTS"] {
+#ffse .ff-cat[data-category="LOBBY MUSIC"] {
   --icon-glow-color:#ff4141;
 }
 
 /* CYAN */
-#ffse .ff-cat[data-category="MEMES"] {
+#ffse .ff-cat[data-category="THEMES"] {
   --icon-glow-color:#31e7fa;
 }
 
 /* PINK */
-#ffse .ff-cat[data-category="MUSIC"] {
+#ffse .ff-cat[data-category="QUICK MESSAGES"] {
   --icon-glow-color:#ff5bd6;
 }
 
 /* ELECTRIC BLUE */
-#ffse .ff-cat[data-category="GAME UI"] {
+#ffse .ff-cat[data-category="PETS"] {
   --icon-glow-color:#397dff;
 }
 
 /* SILVER */
-#ffse .ff-cat[data-category="OTHERS"] {
+#ffse .ff-cat[data-category="ANIMATIONS"] {
   --icon-glow-color:#c6d0e5;
 }
 
 /* GOLD */
-#ffse .ff-cat[data-category="Nuvvu"] {
+#ffse .ff-cat[data-category="UNKNOWN SOUNDS"] {
   --icon-glow-color:#ffcf48;
 }
 
