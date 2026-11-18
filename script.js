@@ -324,9 +324,9 @@ const sounds = [
   },
   {
     id: 31,
-    title: 'Lobby Music',
-    category: 'MUSIC',
-    file: 'assets/audio/lobby-music.mp3',
+    title: 'Heal Sniper Gun sound',
+    category: 'SNIPERS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_HEAL_SNIPER_Gun_sound_effect___HEAL_SNIPER_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-16',
     trending: true,
     downloads: 310
