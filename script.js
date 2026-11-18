@@ -333,9 +333,9 @@ const sounds = [
   },
   {
     id: 32,
-    title: 'Battle Music',
-    category: 'MUSIC',
-    file: 'assets/audio/battle-music.mp3',
+    title: 'Kar9k Gun sound',
+    category: 'SNIPERS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_Kar98k_Gun_sound_effect___Kar98k_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-15',
     trending: false,
     downloads: 190
