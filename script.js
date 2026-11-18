@@ -360,9 +360,9 @@ const sounds = [
   },
   {
     id: 35,
-    title: 'Booyah Sound',
-    category: 'OTHERS',
-    file: 'assets/audio/booyah.mp3',
+    title: 'M500',
+    category: 'PISTON',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M500_Gun_sound_effect___m500_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-12',
     trending: true,
     downloads: 410
