@@ -40,7 +40,7 @@ const categories = [
   ['SKILLS', 'https://cdn.jsdelivr.net/gh/mp3fileshosting/Images@84f586149210ad9755d14967b5f03c14d6330e5f/SKILLS.png'],
   ['LOBBY MUSIC', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/LOBBY%20MUSIC.png'],
   ['THEMES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/THEME.png'],
-  ['QUICK MESSAGES', 'https://placehold.co/80x80/171d32/31e7fa?text=MUS'],
+  ['QUICK MESSAGES', 'https://cdn.jsdelivr.net/gh/mp3fileshosting/Images@46b32ecef44bafe0f40a1e6b25109c67d556f2bb/QUICK%20MESSAGES.png'],
   ['PETS', 'https://placehold.co/80x80/171d32/31e7fa?text=UI'],
   ['ANIMATIONS', 'https://placehold.co/80x80/171d32/31e7fa?text=OTH'],
   ['UNKNOWN SOUNDS', 'https://placehold.co/80x80/171d32/31e7fa?text=NVU']
