@@ -92,7 +92,7 @@ const sounds = [
     id: 5,
     title: 'Famas Gun sound',
     category: 'AR GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_Famas_gun_sound_effect___Famas_sound_effect_2025(128k).mp3',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_Famas_gun_sound_effect___Famas_gun_sound_effect_2025(128k).mp3',
     date: '2026-11-11',
     trending: true,
     downloads: 520
