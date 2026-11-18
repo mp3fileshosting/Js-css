@@ -1137,9 +1137,12 @@ $('ffClearSearch').addEventListener('click', function(){
 
 });
 
+ 
 /* ==========================================
- 13. CATEGORY POPUP
+ 13. CATEGORY POPUP + CHROME BACK FIX
 ========================================== */
+
+let categoryModalHistoryActive = false;
 
 $('ffCategories').addEventListener('click', function(e){
 
@@ -1162,11 +1165,66 @@ $('ffCategories').addEventListener('click', function(e){
 
   $('ffCategoryEmpty').hidden = list.length !== 0;
 
-  $('ffCategoryModal').classList.add('show');
+  const modal = $('ffCategoryModal');
+
+  // Add browser history BEFORE opening popup
+  if(!modal.classList.contains('show')){
+
+    history.pushState(
+      { ffseCategoryModal: true },
+      '',
+      location.href
+    );
+
+    categoryModalHistoryActive = true;
+
+  }
+
+  modal.classList.add('show');
 
   bindAudio($('ffCategorySounds'));
 
 });
+
+/* ==========================================
+ CATEGORY POPUP CLOSE
+========================================== */
+
+function closeCategoryModal(){
+
+  const modal = $('ffCategoryModal');
+
+  if(!modal.classList.contains('show')) return;
+
+  if(categoryModalHistoryActive){
+
+    // Let popstate close the popup
+    history.back();
+
+  }else{
+
+    modal.classList.remove('show');
+
+  }
+
+}
+
+/* ==========================================
+ ANDROID CHROME BACK BUTTON
+========================================== */
+
+window.addEventListener('popstate', function(){
+
+  if(!categoryModalHistoryActive) return;
+
+  categoryModalHistoryActive = false;
+
+  $('ffCategoryModal').classList.remove('show');
+
+  checkModalScrollLock();
+
+});
+
 
 /* ==========================================
  14. LATEST UPLOADS
@@ -1461,6 +1519,7 @@ root.querySelectorAll('.ff-modal').forEach(function(modal){
 
 checkModalScrollLock();
 
+
 /* ==========================================
  16. MODAL CLOSE
 ========================================== */
@@ -1471,7 +1530,13 @@ root.querySelectorAll('[data-close]').forEach(function(btn){
 
     const modal = $(btn.dataset.close);
 
-    if(modal){
+    if(!modal) return;
+
+    if(modal.id === 'ffCategoryModal'){
+
+      closeCategoryModal();
+
+    }else{
 
       modal.classList.remove('show');
 
@@ -1485,23 +1550,26 @@ root.querySelectorAll('.ff-modal').forEach(function(modal){
 
   modal.addEventListener('click', function(e){
 
-    if(e.target === modal){
+    if(e.target !== modal) return;
 
-      if(modal.id === 'ffDonateModal'){
+    if(modal.id === 'ffCategoryModal'){
 
-        continueDownload();
+      closeCategoryModal();
 
-      }else{
+    }else if(modal.id === 'ffDonateModal'){
 
-        modal.classList.remove('show');
+      continueDownload();
 
-      }
+    }else{
+
+      modal.classList.remove('show');
 
     }
 
   });
 
 });
+
 
 /* ==========================================
  16.5 HEADER MENU
