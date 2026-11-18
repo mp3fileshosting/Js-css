@@ -299,7 +299,7 @@ const sounds = [
     id: 28,
     title: 'Bizon Gun sound',
     category: 'SMG GUNS',
-    file: 'Free_fire_Bizon_gun_sound_effect___Bizon_gun_sound_effect_2025(128k).mp3',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_Bizon_gun_sound_effect___Bizon_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-19',
     trending: true,
     downloads: 230
