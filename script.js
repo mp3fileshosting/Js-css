@@ -218,7 +218,7 @@ const sounds = [
     id: 19,
     title: 'Mp5 Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_MP5_Gun_Sound_effect___MP5_Gun_Sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_MP5_Gun_sound_effect___MP5_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-28',
     trending: false,
     downloads: 200
@@ -263,16 +263,16 @@ const sounds = [
     id: 24,
     title: 'Ump Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_UMP_Gun_sound_effect___UMP_gun_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_UMP_Gun_sound_effect___UMP_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-23',
     trending: false,
     downloads: 175
   },
   {
     id: 25,
-    title: 'Vss Gun sound',
+    title: 'No link',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_Vss_gun_sound_effect___Vss_gun_sound_effect_2025(128k).mp3',
+    file: '',
     date: '2026-10-22',
     trending: false,
     downloads: 90
@@ -512,7 +512,7 @@ const sounds = [
    downloads: 900
   },
   {
-   id: 51,
+   id: 52,
    title: 'Victor Gun sound',
    catagory: 'SMG GUNS',
    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_victor_gun_sound_effect___victor_gun_sound_effect_2025(128k).mp3',
