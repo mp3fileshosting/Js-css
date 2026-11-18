@@ -39,7 +39,7 @@ const categories = [
   ['CHARACTERS', 'https://placehold.co/80x80/171d32/31e7fa?text=SNP'],
   ['SKILLS', ''],
   ['LOBBY MUSIC', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/LOBBY%20MUSIC.png'],
-  ['THEMES', 'https://placehold.co/80x80/171d32/31e7fa?text=MEM'],
+  ['THEMES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/THEME.png'],
   ['QUICK MESSAGES', 'https://placehold.co/80x80/171d32/31e7fa?text=MUS'],
   ['PETS', 'https://placehold.co/80x80/171d32/31e7fa?text=UI'],
   ['ANIMATIONS', 'https://placehold.co/80x80/171d32/31e7fa?text=OTH'],
