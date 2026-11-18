@@ -315,9 +315,9 @@ const sounds = [
   },
   {
     id: 30,
-    title: 'Viral Laugh',
-    category: 'MEMES',
-    file: 'assets/audio/viral-laugh.mp3',
+    title: 'G18 Gun sound',
+    category: 'PISTON',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_G18_Gun_sound_effect___G18_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-17',
     trending: true,
     downloads: 115
