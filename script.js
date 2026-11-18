@@ -36,7 +36,7 @@ const categories = [
   ['GRENADE', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/GRENADS.png'],
   ['EMOTES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/EMOTE.png'],
   ['VIHECLES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/VIHECLES.png'],
-  ['CHARACTERS', 'https://placehold.co/80x80/171d32/31e7fa?text=SNP'],
+  ['CHARACTERS', 'https://cdn.jsdelivr.net/gh/mp3fileshosting/Images@a98836310d7f82f6b6d11c098ab290ead8e7d094/CHARACTERS.png'],
   ['SKILLS', ''],
   ['LOBBY MUSIC', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/LOBBY%20MUSIC.png'],
   ['THEMES', 'https://raw.githubusercontent.com/mp3fileshosting/Images/main/THEME.png'],
