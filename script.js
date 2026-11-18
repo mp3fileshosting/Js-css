@@ -378,9 +378,9 @@ const sounds = [
   },
   {
     id: 37,
-    title: 'Nuvvu Funny Sound',
-    category: 'Nuvvu',
-    file: 'assets/audio/nuvvu-funny.mp3',
+    title: 'M82B',
+    category: 'SNIPERS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M82B_Gun_sound_effect___M82B_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-10',
     trending: true,
     downloads: 135
