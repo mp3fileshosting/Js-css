@@ -369,9 +369,9 @@ const sounds = [
   },
   {
     id: 36,
-    title: 'Victory Sound',
-    category: 'OTHERS',
-    file: 'assets/audio/victory.mp3',
+    title: 'M590',
+    category: 'SHORTGUNS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M590_Gun_sound_effect___M590_Gun_sound_effect(128k).mp3',
     date: '2026-10-11',
     trending: false,
     downloads: 220
