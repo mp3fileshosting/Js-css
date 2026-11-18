@@ -396,9 +396,9 @@ const sounds = [
   },
   {
     id: 39,
-    title: 'Air Drop Sound',
-    category: 'OTHERS',
-    file: 'assets/audio/air-drop.mp3',
+    title: 'Usp Gun sound',
+    category: 'PISTON',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_USP_Gun_sound_effect___USP_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-08',
     trending: false,
     downloads: 155
