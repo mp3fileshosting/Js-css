@@ -216,7 +216,7 @@ const sounds = [
   },
   {
     id: 19,
-    title: 'MP5 Gun sound',
+    title: 'Mp5 Gun sound',
     category: 'SMG GUNS',
     file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_MP5_Gun_Sound_effect___MP5_Gun_Sound_effect_2025(128k).mp3',
     date: '2026-10-28',
@@ -450,9 +450,9 @@ const sounds = [
   },
   {
     id: 45,
-    title: 'MP5 Gun sound',
-    category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_MP5_Gun_sound_effect___MP5_Gun_sound_effect_2025(128k).mp3 ko',
+    title: '',
+    category: '',
+    file: '',
     date: '2026-10-02',
     trending: true,
     downloads: 650
@@ -477,9 +477,9 @@ const sounds = [
   },
   {
     id: 48,
-    title: 'Ump Gun sound',
-    category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_UMP_Gun_sound_effect___UMP_Gun_sound_effect_2025(128k).mp3',
+    title: '',
+    category: '',
+    file: '',
     date: '2026-09-29',
     trending: false,
     downloads: 205
