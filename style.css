@@ -432,12 +432,12 @@
 
 /* RED */
 #ffse .ff-cat[data-category="LOBBY MUSIC"] {
-  --icon-glow-color:#ff4141;
+  --icon-glow-color:#31e7fa;
 }
 
 /* CYAN */
 #ffse .ff-cat[data-category="THEMES"] {
-  --icon-glow-color:#31e7fa;
+  --icon-glow-color:#ff4141;
 }
 
 /* PINK */
