@@ -1,3 +1,4 @@
+
 (function(){
 
 'use strict';
@@ -21,7 +22,7 @@ const CONFIG = {
 };
 
 /* ==========================================
- 2. CATEGORIES  (PNG ICONS)
+ 2. CATEGORIES (PNG ICONS)
 ========================================== */
 
 const categories = [
@@ -50,7 +51,6 @@ const categories = [
  3. AUDIO DATABASE
 ========================================== */
 
-  
 const sounds = [
   {
     id: 1,
@@ -92,7 +92,7 @@ const sounds = [
     id: 5,
     title: 'Famas Gun sound',
     category: 'AR GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_Famas_gun_sound_effect___Famas_gun_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_Famas_gun_sound_effect___Famas_sound_effect_2025(128k).mp3',
     date: '2026-11-11',
     trending: true,
     downloads: 520
@@ -218,7 +218,7 @@ const sounds = [
     id: 19,
     title: 'MP5 Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_MP5_Gun_sound_effect___MP5_Gun_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_MP5_Gun_Sound_effect___MP5_Gun_Sound_effect_2025(128k).mp3',
     date: '2026-10-28',
     trending: false,
     downloads: 200
@@ -227,7 +227,7 @@ const sounds = [
     id: 20,
     title: 'Mag10 Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_Mag10_gun_sound_effect___mag10_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_Mag10_gun_sound_effect___mag10_sound_effect_2025(128k).mp3',
     date: '2026-10-27',
     trending: true,
     downloads: 110
@@ -263,7 +263,7 @@ const sounds = [
     id: 24,
     title: 'Ump Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_UMP_Gun_sound_effect___UMP_Gun_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_UMP_Gun_sound_effect___UMP_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-23',
     trending: false,
     downloads: 175
@@ -281,7 +281,7 @@ const sounds = [
     id: 26,
     title: 'Woodpecker Gun sound',
     category: 'RIFLES',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_Woodpecker_gun_sound_effect___Woodpecker_gun_sound_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_Woodpecker_gun_sound_effect___Woodpecker_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-21',
     trending: true,
     downloads: 370
@@ -504,12 +504,9 @@ const sounds = [
   }
 ];
 
-
 /* ==========================================
  3.1 CATEGORY PROPERTY FIX
 ========================================== */
-
-// Supports both old "catagory" and correct "category"
 
 sounds.forEach(function(sound){
 
@@ -525,12 +522,12 @@ sounds.forEach(function(sound){
 
 });
 
-// Case-insensitive category comparison
-
 function normalizeCategory(value){
+
   return String(value || 'OTHERS')
     .trim()
     .toLowerCase();
+
 }
 
 /* ==========================================
@@ -664,7 +661,7 @@ window.addEventListener('resize', function(){
 });
 
 /* ==========================================
- 8. AUDIO CARD GENERATOR & DURATION PRELOADER
+ 8. AUDIO CARD GENERATOR
 ========================================== */
 
 const durationCache = {};
@@ -737,8 +734,6 @@ function makeCards(list){
       durationCache[s.id] > 0
       ? formatTime(durationCache[s.id])
       : '--:--';
-
-    // FIXED CATEGORY BADGE
 
     const categoryName = escapeHTML(
       s.category || s.catagory || 'OTHERS'
@@ -914,8 +909,6 @@ async function playSound(id){
 
   if(!sound || !sound.file) return;
 
-  // Same sound → toggle
-
   if(currentSoundId === id && globalAudio.src){
 
     if(globalAudio.paused){
@@ -952,8 +945,6 @@ async function playSound(id){
     return;
 
   }
-
-  // New sound
 
   currentSoundId = id;
 
@@ -1020,8 +1011,6 @@ function filteredSounds(){
 
   let list = sounds.slice();
 
-  // SEARCH FILTER
-
   if(searchText){
 
     list = list.filter(function(s){
@@ -1035,8 +1024,6 @@ function filteredSounds(){
 
   }
 
-  // TRENDING FILTER
-
   if(currentFilter === 'trending'){
 
     list = list.filter(function(s){
@@ -1047,8 +1034,6 @@ function filteredSounds(){
 
   }
 
-  // LATEST FILTER
-
   if(currentFilter === 'latest'){
 
     list.sort(function(a, b){
@@ -1058,8 +1043,6 @@ function filteredSounds(){
     });
 
   }
-
-  // POPULAR FILTER
 
   if(currentFilter === 'popular'){
 
@@ -1165,8 +1148,6 @@ $('ffCategories').addEventListener('click', function(e){
   if(!btn) return;
 
   const category = btn.dataset.category;
-
-  // CASE-INSENSITIVE MATCHING FIX
 
   const list = sounds.filter(function(s){
 
@@ -1293,7 +1274,6 @@ root.addEventListener('click', function(e){
   requestDownload(Number(btn.dataset.download));
 
 });
-  
 
 /* ==========================================
  15.5 BACKGROUND SCROLL LOCK
@@ -1302,9 +1282,9 @@ root.addEventListener('click', function(e){
 let savedScrollY = 0;
 let pageLocked = false;
 
-function lockBackgroundScroll() {
+function lockBackgroundScroll(){
 
-  if (pageLocked) return;
+  if(pageLocked) return;
 
   savedScrollY = window.scrollY;
   pageLocked = true;
@@ -1315,11 +1295,12 @@ function lockBackgroundScroll() {
   document.body.style.right = '0';
   document.body.style.width = '100%';
   document.body.style.overflow = 'hidden';
+
 }
 
-function unlockBackgroundScroll() {
+function unlockBackgroundScroll(){
 
-  if (!pageLocked) return;
+  if(!pageLocked) return;
 
   pageLocked = false;
 
@@ -1331,28 +1312,149 @@ function unlockBackgroundScroll() {
   document.body.style.overflow = '';
 
   window.scrollTo(0, savedScrollY);
+
 }
 
-function checkModalScrollLock() {
+/* ==========================================
+ 15.6 ANDROID BACK BUTTON FIX
+========================================== */
+
+const modalHistoryStack = [];
+const ignoreModalBack = new Set();
+
+let modalTokenCounter = 0;
+
+function getOpenModals(){
+
+  return Array.from(
+    root.querySelectorAll('.ff-modal.show')
+  );
+
+}
+
+function registerModalHistory(modal){
+
+  if(modalHistoryStack.includes(modal)) return;
+
+  modalHistoryStack.push(modal);
+
+  modalTokenCounter++;
+
+  history.pushState({
+
+    ...(history.state || {}),
+    ffsePopup: true,
+    ffsePopupToken: modalTokenCounter
+
+  }, '', location.href);
+
+}
+
+function removeModalHistory(modal){
+
+  if(ignoreModalBack.has(modal)){
+
+    ignoreModalBack.delete(modal);
+    return;
+
+  }
+
+  const index = modalHistoryStack.indexOf(modal);
+
+  if(index === -1) return;
+
+  // Latest popup only
+
+  if(index === modalHistoryStack.length - 1){
+
+    history.back();
+
+  }else{
+
+    // Remove an older modal without disturbing
+    // the currently active popup.
+
+    modalHistoryStack.splice(index, 1);
+
+  }
+
+}
+
+/* ==========================================
+ 15.7 HANDLE ANDROID / BROWSER BACK
+========================================== */
+
+window.addEventListener('popstate', function(){
+
+  if(modalHistoryStack.length === 0) return;
+
+  const modal = modalHistoryStack.pop();
+
+  if(!modal) return;
+
+  if(modal.classList.contains('show')){
+
+    ignoreModalBack.add(modal);
+
+    modal.classList.remove('show');
+
+  }
+
+  checkModalScrollLock();
+
+});
+
+/* ==========================================
+ 15.8 MODAL SCROLL OBSERVER
+========================================== */
+
+function checkModalScrollLock(){
 
   const isOpen = root.querySelector('.ff-modal.show');
 
-  if (isOpen) {
+  if(isOpen){
+
     lockBackgroundScroll();
-  } else {
+
+  }else{
+
     unlockBackgroundScroll();
+
   }
+
 }
 
-const modalObserver = new MutationObserver(
-  checkModalScrollLock
-);
+const modalObserver = new MutationObserver(function(mutations){
 
-root.querySelectorAll('.ff-modal').forEach(function(modal) {
+  mutations.forEach(function(mutation){
+
+    if(mutation.attributeName !== 'class') return;
+
+    const modal = mutation.target;
+
+    if(modal.classList.contains('show')){
+
+      registerModalHistory(modal);
+
+    }else{
+
+      removeModalHistory(modal);
+
+    }
+
+  });
+
+  checkModalScrollLock();
+
+});
+
+root.querySelectorAll('.ff-modal').forEach(function(modal){
 
   modalObserver.observe(modal, {
+
     attributes: true,
     attributeFilter: ['class']
+
   });
 
 });
@@ -1367,7 +1469,13 @@ root.querySelectorAll('[data-close]').forEach(function(btn){
 
   btn.addEventListener('click', function(){
 
-    $(btn.dataset.close).classList.remove('show');
+    const modal = $(btn.dataset.close);
+
+    if(modal){
+
+      modal.classList.remove('show');
+
+    }
 
   });
 
@@ -1395,12 +1503,14 @@ root.querySelectorAll('.ff-modal').forEach(function(modal){
 
 });
 
-  /* HEADER MENU */
+/* ==========================================
+ 16.5 HEADER MENU
+========================================== */
 
 const menuBtn = $('ffMenuBtn');
 const menuDropdown = $('ffMenuDropdown');
 
-menuBtn.addEventListener('click', function(e) {
+menuBtn.addEventListener('click', function(e){
 
   e.stopPropagation();
 
@@ -1408,21 +1518,26 @@ menuBtn.addEventListener('click', function(e) {
 
 });
 
-document.addEventListener('click', function(e) {
+document.addEventListener('click', function(e){
 
-  if(!e.target.closest('#ffse .ff-menu')) {
+  if(!e.target.closest('#ffse .ff-menu')){
+
     menuDropdown.classList.remove('open');
+
   }
 
 });
 
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function(e){
 
-  if(e.key === 'Escape') {
+  if(e.key === 'Escape'){
+
     menuDropdown.classList.remove('open');
+
   }
 
 });
+
 /* ==========================================
  17. INITIALIZE WEBSITE
 ========================================== */
