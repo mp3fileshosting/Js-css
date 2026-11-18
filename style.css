@@ -20,9 +20,9 @@
   --glow:rgba(169,91,255,.35);
 
   /* CATEGORY ICON CONTROLS */
-  --category-icon-size:80px;
+  --category-icon-size:70px;
   --category-icon-glow:10px;
-  --category-icon-max-height:50px;
+  --category-icon-max-height:45px;
 
   background:var(--bg);
   color:var(--text);
