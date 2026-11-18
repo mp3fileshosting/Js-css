@@ -288,10 +288,10 @@ const sounds = [
   },
   {
     id: 27,
-    title: 'Enemy Alert',
-    category: 'ALERTS',
-    file: 'assets/audio/enemy-alert.mp3',
-    date: '2026-10-20',
+    title: 'Awm Gun sound',
+    category: 'SNIPERS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_AWM_Gun_sound_effect___AWM_Gun_sound_effect_2025(128k).mp3',
+    date: '2026-11-18',
     trending: false,
     downloads: 140
   },
