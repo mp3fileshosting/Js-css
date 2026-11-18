@@ -63,7 +63,7 @@ const sounds = [
   },
   {
     id: 2,
-    title: 'AC80',
+    title: 'AC80 Gun sound',
     category: 'RIFLES',
     file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_Fire_AC80_Gun_Sound_Effect___AC80_Sound___FF_AC80_SFX___No_Copyright(128k).mp3',
     date: '2026-11-14',
@@ -108,7 +108,7 @@ const sounds = [
   },
   {
     id: 7,
-    title: 'M4A1',
+    title: 'M4A1 Gun sound',
     category: 'AR GUNS',
     file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_M4A1_Gun_sound_effect___M4A1_sound_effect_2025(128k).mp3',
     date: '2026-11-09',
@@ -135,7 +135,7 @@ const sounds = [
   },
   {
     id: 10,
-    title: 'XM8',
+    title: 'XM8 Gun sound',
     category: 'AR GUNS',
     file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_XM8_Gun_sound_effect___XM8_Gun_sound_effect_2025(128k).mp3',
     date: '2026-11-06',
@@ -153,8 +153,8 @@ const sounds = [
   },
   {
     id: 12,
-    title: 'AR GUNS',
-    category: 'Aug Gun sound',
+    title: 'Aug Gun sound',
+    category: 'AR GUNS',
     file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_Aug_sound_effect___Aug_sound_effect_2025(128k).mp3',
     date: '2026-11-04',
     trending: true,
@@ -162,7 +162,7 @@ const sounds = [
   },
   {
     id: 13,
-    title: 'G36',
+    title: 'G36 Gun sound',
     category: 'AR GUNS',
     file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_G36_gun_sound_effect___G36_One_tap_Headshot_sound_effect_2025(128k).mp3',
     date: '2026-11-03',
@@ -281,7 +281,7 @@ const sounds = [
     id: 26,
     title: 'Woodpecker Gun sound',
     category: 'RIFLES',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/free_fire_Woodpecker_gun_sound_effect___Woodpecker_gun_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_Woodpecker_gun_sound_effect___Woodpecker_gun_sound_2025(128k).mp3',
     date: '2026-10-21',
     trending: true,
     downloads: 370
@@ -452,7 +452,7 @@ const sounds = [
     id: 45,
     title: 'MP5 Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_MP5_Gun_sound_effect___MP5_Gun_sound_effect_2025(128k).mp3',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_MP5_Gun_sound_effect___MP5_Gun_sound_effect_2025(128k).mp3 ko',
     date: '2026-10-02',
     trending: true,
     downloads: 650
