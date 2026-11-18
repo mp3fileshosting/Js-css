@@ -227,7 +227,7 @@ const sounds = [
     id: 20,
     title: 'Mag10 Gun sound',
     category: 'SMG GUNS',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/88114ce02d1cfe8baa7ce7b8002b9271060cbac8/Free_fire_Mag10_gun_sound_effect___mag10_sound_effect_2025(128k).mp3',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_Mag10_gun_sound_effect___mag10_sound_effect_2025(128k).mp3',
     date: '2026-10-27',
     trending: true,
     downloads: 110
