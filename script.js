@@ -351,9 +351,9 @@ const sounds = [
   },
   {
     id: 34,
-    title: 'Game Over',
-    category: 'GAME UI',
-    file: 'assets/audio/game-over.mp3',
+    title: 'M24',
+    category: 'SNIPERS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M24_Gun_sound_effects___M24_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-13',
     trending: false,
     downloads: 250
