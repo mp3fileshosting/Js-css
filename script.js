@@ -306,9 +306,9 @@ const sounds = [
   },
   {
     id: 29,
-    title: 'Funny Meme Sound',
-    category: 'MEMES',
-    file: 'assets/audio/funny-meme.mp3',
+    title: 'Deserteagle Gun sound',
+    category: 'PISTON',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_Desert_eagle_Gun_sound_effect___Deserteagle_sound_effect_2025(128k).mp3',
     date: '2026-10-18',
     trending: false,
     downloads: 105
