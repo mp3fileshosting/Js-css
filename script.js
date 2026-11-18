@@ -405,102 +405,120 @@ const sounds = [
   },
   {
     id: 40,
-    title: 'Knockdown Sound',
-    category: 'Ar guns',
-    file: 'assets/audio/knockdown.mp3',
+    title: 'Vsk94 Gun sound',
+    category: 'SNIPERS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_VSK94_Gun_sound_effect___VSK94_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-07',
     trending: true,
     downloads: 170
   },
   {
     id: 41,
-    title: 'Double Kill',
-    category: 'Ar guns',
-    file: 'assets/audio/double-kill.mp3',
+    title: 'Booyah day theme',
+    category: 'THEMES',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_booyah_day_update_theme_song___booyah_day_song(128k).mp3',
     date: '2026-10-06',
     trending: true,
     downloads: 330
   },
   {
     id: 42,
-    title: 'Triple Kill',
-    category: 'SMG GUNS',
-    file: 'assets/audio/triple-kill.mp3',
+    title: 'M1887 Gun sound',
+    category: 'SHORTGUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free%20fire%20M1887%20gun%20sound%20Effects%20free%20fire%20sound%20effects%202025.mp3',
     date: '2026-10-05',
     trending: false,
     downloads: 100
   },
   {
     id: 43,
-    title: 'Monster Kill',
-    category: 'RIFLES',
-    file: 'assets/audio/monster-kill.mp3',
+    title: '3rd Anniversary Theme',
+    category: 'THEMES',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_3rd_Anniversary_theme_song___3rd_Anniversary_theme_song_2025(128k).mp3',
     date: '2026-10-04',
     trending: true,
     downloads: 85
   },
   {
     id: 44,
-    title: 'First Blood',
-    category: 'SHORTGUNS',
-    file: 'assets/audio/first-blood.mp3',
+    title: 'M60 Gun sound',
+    category: 'MACHINE GUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_M60_gun_sound_effect___M60_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-03',
     trending: false,
     downloads: 240
   },
   {
     id: 45,
-    title: 'Reload Sound',
-    category: 'SNIPER GUNS',
-    file: 'assets/audio/reload.mp3',
+    title: 'MP5 Gun sound',
+    category: 'SMG GUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_MP5_Gun_sound_effect___MP5_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-02',
     trending: true,
     downloads: 650
   },
   {
     id: 46,
-    title: 'Scope Open',
-    category: 'AWM',
-    file: 'assets/audio/scope-open.mp3',
+    title: 'SVD/DRAGON Gun sound',
+    category: 'RIFLES',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_SVD_gun_sound_effect___SVD_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-01',
     trending: false,
     downloads: 145
   },
   {
     id: 47,
-    title: 'Scope Close',
-    category: 'SNIPER',
-    file: 'assets/audio/scope-close.mp3',
+    title: 'Space12 Gun sound',
+    category: 'SHORTGUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_Spas_12_gun_sound_effect___Spas_12_gun_sound_effect(128k).mp3',
     date: '2026-09-30',
     trending: true,
     downloads: 390
   },
   {
     id: 48,
-    title: 'Revive Sound',
-    category: 'GAME UI',
-    file: 'assets/audio/revive.mp3',
+    title: 'Ump Gun sound',
+    category: 'SMG GUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_UMP_Gun_sound_effect___UMP_Gun_sound_effect_2025(128k).mp3',
     date: '2026-09-29',
     trending: false,
     downloads: 205
   },
   {
     id: 49,
-    title: 'Medkit Sound',
-    category: 'OTHERS',
-    file: 'assets/audio/medkit.mp3',
+    title: 'Vss Gun sound',
+    category: 'SMG GUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_Vss_gun_sound_effect___Vss_gun_sound_effect_2025(128k).mp3',
     date: '2026-09-28',
     trending: false,
     downloads: 185
   },
   {
     id: 50,
-    title: 'Legendary Headshot',
-    category: 'Ar guns',
-    file: 'assets/audio/legendary-headshot.mp3',
+    title: 'Chargebuster Gun sound',
+    category: 'SHORTGUNS',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_charge_buster_gun_sound_effect___charge_buster_gun_sound_effect_2025(128k).mp3',
     date: '2026-09-27',
     trending: true,
     downloads: 1000
+  },
+  {
+   id: 51,
+   title: 'Mag7 Gun sound',
+   catagory: 'SHORTGUNS',
+   file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_mag_7_gun_sound_effect___mag_7_gun_sound_effect_2025(128k).mp3',
+   date: '2026-11-18',
+   trending: false,
+   downloads: 900
+  },
+  {
+   id: 51,
+   title: 'Victor Gun sound',
+   catagory: 'SMG GUNS',
+   file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/free_fire_victor_gun_sound_effect___victor_gun_sound_effect_2025(128k).mp3',
+   date: '2026-11-18',
+   trending: true,
+   downloads: 900
   }
 ];
 
