@@ -351,7 +351,7 @@ const sounds = [
   },
   {
     id: 34,
-    title: 'M24',
+    title: 'M24 Gun sound',
     category: 'SNIPERS',
     file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M24_Gun_sound_effects___M24_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-13',
@@ -360,7 +360,7 @@ const sounds = [
   },
   {
     id: 35,
-    title: 'M500',
+    title: 'M500 Gun sound',
     category: 'PISTON',
     file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M500_Gun_sound_effect___m500_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-12',
@@ -369,7 +369,7 @@ const sounds = [
   },
   {
     id: 36,
-    title: 'M590',
+    title: 'M590 Gun sound',
     category: 'SHORTGUNS',
     file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M590_Gun_sound_effect___M590_Gun_sound_effect(128k).mp3',
     date: '2026-10-11',
@@ -378,7 +378,7 @@ const sounds = [
   },
   {
     id: 37,
-    title: 'M82B',
+    title: 'M82B Gun sound',
     category: 'SNIPERS',
     file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_M82B_Gun_sound_effect___M82B_gun_sound_effect_2025(128k).mp3',
     date: '2026-10-10',
@@ -387,9 +387,9 @@ const sounds = [
   },
   {
     id: 38,
-    title: 'Nuvvu Meme',
-    category: 'Nuvvu',
-    file: 'assets/audio/nuvvu-meme.mp3',
+    title: 'Trogon Gun sound',
+    category: 'SHORTGUNS',
+    file: 'https://cdn.jsdelivr.net/gh/mp3fileshosting/ffmp3files@3aa8f0b4f1dd9aaba9543f906cb5b63442408f65/Free_fire_Trogon_Gun_sound_effect___Trogon_Gun_sound_effect_2025(128k).mp3',
     date: '2026-10-09',
     trending: false,
     downloads: 280
