@@ -309,12 +309,12 @@
 .ff-cat {
   min-width:0;
   height:72px;
-  padding:4px 4px;
+  padding:3px 4px;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:1px;
+  gap:3px;
   border:1px solid var(--border);
   border-radius:6px;
   color:var(--text);
