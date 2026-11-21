@@ -477,9 +477,9 @@ const sounds = [
   },
   {
     id: 48,
-    title: 'FLANKIG',
-    category: 'THEMES',
-    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/67e581388e56310f9244fa7fba81c1f763943307/Free_fire__I_m_flanking__sound_effect___ff_I_m_flanking_voice_message_2026(128k).mp3',
+    title: 'No link',
+    category: '',
+    file: ',
     date: '2026-09-29',
     trending: false,
     downloads: 205
