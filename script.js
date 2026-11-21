@@ -270,10 +270,10 @@ const sounds = [
   },
   {
     id: 25,
-    title: 'No link',
-    category: 'SMG GUNS',
-    file: '',
-    date: '2026-10-22',
+    title: 'Im flanking sound',
+    category: 'QUICK MESSAGES',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/67e581388e56310f9244fa7fba81c1f763943307/Free_fire__I_m_flanking__sound_effect___ff_I_m_flanking_voice_message_2026(128k).mp3',
+    date: '2026-11-22',
     trending: false,
     downloads: 90
   },
@@ -450,10 +450,10 @@ const sounds = [
   },
   {
     id: 45,
-    title: '',
-    category: '',
-    file: '',
-    date: '2026-10-02',
+    title: 'Safe here helpme up',
+    category: 'QUICK MESSAGES',
+    file: 'https://raw.githubusercontent.com/mp3fileshosting/ffmp3files/67e581388e56310f9244fa7fba81c1f763943307/Free_fire__Safe_here_help_me_up__voice_message_sound_effect___ff_voice_message_2026(128k).mp3',
+    date: '2026-11-02',
     trending: true,
     downloads: 650
   },
